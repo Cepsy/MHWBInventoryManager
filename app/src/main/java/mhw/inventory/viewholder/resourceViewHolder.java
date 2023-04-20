@@ -5,6 +5,8 @@ package mhw.inventory.viewholder;
 import android.view.View;
 import android.widget.TextView;
 
+import androidx.recyclerview.widget.RecyclerView;
+
 public class resourceViewHolder extends RecyclerView.ViewHolder {
         TextView examName;
         TextView examMessage;
@@ -13,16 +15,16 @@ public class resourceViewHolder extends RecyclerView.ViewHolder {
 
     public resourceViewHolder(View itemView) {
         super(itemView);
-        examName
-                = (TextView)itemView
-                .findViewById(R.id.examName);
-        examDate
-                = (TextView)itemView
-                .findViewById(R.id.examDate);
-        examMessage
-                = (TextView)itemView
-                .findViewById(R.id.examMessage);
-        view  = itemView
+//        examName
+//                = (TextView)itemView
+//                .findViewById(R.id.examName);
+//        examDate
+//                = (TextView)itemView
+//                .findViewById(R.id.examDate);
+//        examMessage
+//                = (TextView)itemView
+//                .findViewById(R.id.examMessage);
+//        view  = itemView;
 
     }
 }

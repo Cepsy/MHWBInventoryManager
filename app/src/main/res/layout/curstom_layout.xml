@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/slot"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -18,12 +20,23 @@
                 android:contentDescription="@string/todo"/>
 
             <TextView
+                android:id="@+id/resourceName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/nom_de_resource"
                 android:textSize="24sp"
                 android:textStyle="bold"
                 android:layout_toEndOf="@id/resourceImage"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/resourceName"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="23dp"
+                android:layout_toRightOf="@id/resourceImage"
+                android:text="Description de la ressource"
+                android:textSize="16sp" />
 
         </RelativeLayout>
 
